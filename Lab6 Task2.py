@@ -9,16 +9,5 @@ while x<=b:
     print(x, y)
     values.append(y)
     x=x+h
-print(values)
 values.sort(reverse=True)
-middle = len(values) // 2
-
-if len(values) % 2 == 0:
-    list1 = values[:middle]
-    list2 = values[middle:]
-else:
-    list1 = values[:middle]
-    list2 = values[middle + 1:]
-
-print(list1)
-print(list2)
+print(values)
